@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(117deg, rgb(187, 87, 87), rgb(87, 87, 187));
+            overflow: hidden;
+            color: white;
+        }
+
+        button {
+            color: white;
+            padding: 10px 20px;
+            background-color:  transparent;
+            border: 2px solid hsl(255, 40%, 20%);
+            border-radius: 5%;
+            font-weight: bold;
+            transition: all 0.4s;
+        }
+
+        button:hover {
+            background-color: hsl(263, 46%, 42%);
+            border: 2px solid hsl(263, 40%, 20%);
+        }
+
+        button:focus {
+            outline: none;
+        }
+        .container {
+            padding: 15%;
+            margin: 0 auto;
+            text-align: center;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors! "Console Version"</h1>
+        <button>Start game!</button>
+        <p>Psst... open your browser's console to see the results.</p>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
